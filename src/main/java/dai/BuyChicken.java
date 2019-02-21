@@ -5,6 +5,7 @@ import main.java.company.model.Hen;
 import main.java.company.tools.SetChicken;
 
 public class BuyChicken {
+
     public static void main(String[] args) {
         int wayNumer = 1;
         int sumNumber = 100;

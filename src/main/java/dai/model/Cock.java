@@ -8,3 +8,4 @@ public class Cock extends Chicken {
         return 5;
     }
 }
+

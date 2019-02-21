@@ -3,8 +3,7 @@ package main.java.company.tools;
 import main.java.company.model.Chicken;
 
 public class SetChicken {
-    public static void setChickenNumer(Chicken chicken, int sumNumber) {
-        chicken.setNumber((int) ((sumNumber) / getChickenPrice(chicken)));
+    public static void setChickenNumer(Chicken chicken, int sumNumber) { chicken.setNumber((int) ((sumNumber) / getChickenPrice(chicken)));
     }
 
     public static double getChickenPrice(Chicken chicken) {

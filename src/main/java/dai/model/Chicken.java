@@ -1,6 +1,6 @@
 package main.java.company.model;
 
-public abstract class Chicken {
+public abstract class Chicken implements Chicken2 {
     private int number=1;
     public String name;
     Chicken(String name){
@@ -9,6 +9,7 @@ public abstract class Chicken {
     public String getName(){
         return this.name;
     }
+
     public void setNumber(int number){
         this.number=number;
     }
